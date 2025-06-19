@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            border: 2px solid black;
+            width: 100%;
+            background-color: black;
+            display:flex; 
+            /* flex-direction: row; */
+              justify-content: space-between;
+        }
+        #child{
+            position: absolute;
+            top: 40px;
+            left:45%;
+            -webkit-text-fill-color: white;
+            font-size: 25px;
+             /* justify-content: space-between; */
+        }
+        #child span{
+           justify-content: space-between;
+           /* margin-left: 5px; */
+        }
+        #parent button{
+            background-color:red ;  
+        }
+        #parent h1{
+        -webkit-text-fill-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+      <h1>CodingThinker</h1>
+         <div id="child">
+            <span>learn  </span>
+            &nbsp;&nbsp;&nbsp;
+            <span>  practice  </span>
+            &nbsp;&nbsp;&nbsp;
+            <span>  Get hired  </span>
+            &nbsp;&nbsp;&nbsp;  
+            <span>  IDE  </span>
+        </div>
+        <button>login</button> 
+    </div>
+</body>
+</html>
